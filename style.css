@@ -31,6 +31,12 @@ h4 {
 .navbar .navbar-nav li a:hover {
 	color: white !important;
 }
+ul.dropdown-menu {
+    background-color: #016070;
+  	transform: translate(-10%, 0);
+  	text-align: center;
+}
+
 
 /*
 #container {
