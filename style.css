@@ -1,14 +1,36 @@
 
-body { 
+/*BODY*/
+
+html, body {
+	height: 100%;
 	margin:0;
 	padding:0;
 	background-color: #f2f5f2;
 }
+body { 
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom, rgba(242, 245, 242, 0.6) 0%,rgba(242, 245, 242, 0.6) 100%),
+		url(imgs/friends.jpg);
+	background-size: cover;
+
+}
+
+.content {
+	margin-top: 60px;
+	flex: 1 0 auto;
+}
+
+
+
 
 /*HEADINGS*/
 h4 {
 	font-weight: bold;
 }
+
+
+
 
 /*NAV BAR AND HEADER*/
 
@@ -31,23 +53,26 @@ h4 {
 .navbar .navbar-nav li a:hover {
 	color: white !important;
 }
-
-/*
-#container {
-	min-height: 100%;
-	position:relative;
+ul.dropdown-menu {
+    background-color: #016070;
+  	transform: translate(-10%, 0);
+  	text-align: center;
 }
-*/
+
+
+
 
 /*FOOTER*/
 
 .footer {
-	position: absolute;
+	flex-shrink: 0;
+
 	width: 100%;
 	bottom: 0;
 	padding: 30px;
 	color: #cbccc6;
 	background-color: #016070;
 }
+
 
 
