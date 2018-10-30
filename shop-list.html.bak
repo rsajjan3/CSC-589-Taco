@@ -37,13 +37,21 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>    <![endif]-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="home01"><!--/.left-->
+  <body class="home01">
+    <!--Header-->
     <div class="header">
+      <!--Header-Top-->
       <div class="header-top">
         <div class="container">
-          <div class="row"> <br>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="left"> Welcome to The Friend Zone <span>Call us</span>
+                +123 456 7890</div>
+              <!--/.left--> </div>
+            <!--/.col-md-6-->
             <div class="col-md-6 col-sm-6 col-xs-6">
               <div class="right">
                 <ul>
@@ -121,12 +129,12 @@
                   <li><a href="#">my account</a> </li>
                 </ul>
               </div>
-              <br>
-            </div>
-            <br>
-          </div>
-        </div>
-      </div>
+              <!--/.right--> </div>
+            <!--/.col-md-6--> </div>
+          <!--/.row--> </div>
+        <!--/.container--> </div>
+      <!--/.header-top-->
+      <!--Header-Middle-->
       <div class="header-middle">
         <div class="container">
           <div class="row">
@@ -136,7 +144,7 @@
               <div class="cart-text"> <img src="assets/images/cart-2.png" alt="cart-2">
                 Prices Varies upon the area's | </div>
             </div>
-            <br>
+            <!--/.site-logo-->
             <div class="col-md-4 col-sm-4 col-xs-12 header-search">
               <div class="search default">
                 <form class="searchform" action="#" method="get">
@@ -150,12 +158,30 @@
               <!--/.search--> </div>
             <!--/.header-search--> </div>
           <!--/.row--> </div>
+        <!--/.container--> </div>
+      <br>
+      <div class="navbar Friend-nav megamenu">
+        <div class="container"> <br>
+          <br>
+        </div>
       </div>
     </div>
     &nbsp;
     <!--Site-Content-->
     <div id="#content" class="site-content">
       <div class="container">
+        <!--page title-->
+        <div class="page_title_area row">
+          <div class="col-md-12">
+            <div class="bredcrumb">
+              <ul>
+                <li><a href="#">Home</a> </li>
+                <li class="active"><a href="#">Friend list</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--/.page title-->
         <div class="row">
           <div class="col-md-12">
             <div class="product-listing-view">
@@ -311,12 +337,31 @@
                         <!--/.product-info--> </div>
                     </div>
                     <!--/.product-single--> </div>
-                </div>
+                  <!--/.col-md-12--> </div>
               </div>
             </div>
-          </div>
+            <!-- pagination -->
+            <div class="paginations text-center">
+              <ul class="pagination">
+                <li><a href="#"><span class="pagicon arrow_carrot-left"></span></a>
+                  <br>
+                </li>
+                <li><a href="#"><span>1</span></a> </li>
+                <li class="active"><a href="#"><span>2</span></a> </li>
+                <li><a href="#"><span>3</span></a> </li>
+                <li><a href="#"><span>4</span></a> </li>
+                <li><a href="#"><span>5</span></a> </li>
+                <li><a href="#"><span>6</span></a> </li>
+                <li><a href="#"><span class="pagicon arrow_carrot-right"></span></a>
+                  <br>
+                </li>
+              </ul>
+            </div>
+            <!--/.pagination--> </div>
         </div>
       </div>
-    </div>
+      <!--/.container--> </div>
+    <!--/.about-content-->
+  
   </body>
 </html>
