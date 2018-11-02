@@ -14,7 +14,7 @@ body {
 
 /*NAV AND HEADER BAR*/
 .navbar {
-  background-color: #016070 !important;
+  background-color: #19556b !important;
 }
 .navbar .navbar-brand {
   color: #f2f5f2 !important;
@@ -88,7 +88,7 @@ footer {
   width: 100%;
   margin-top: 50px;
   color: #cbccc6;
-  background-color: #016070; 
+  background-color: #19556b; 
   min-height: 250px;
   padding: 10px 0px 25px 0px;
 }
