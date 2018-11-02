@@ -6,9 +6,6 @@ body {
   margin-top: 25px;
   position: relative;
   background-color: #c2d2ca;
- /* background-image: linear-gradient(to bottom, rgba(242, 245, 242, 0.6) 0%,rgba(242, 245, 242, 0.6) 100%),
-    url(imgs/people.jpg);
-  background-size: cover;*/
 }
 
 
@@ -28,7 +25,6 @@ body {
 ul.dropdown-menu {
     text-align: center;
 }
-
 
 
 /*MAIN PAGE SLIDE SHOW*/
@@ -73,6 +69,13 @@ ul.dropdown-menu {
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0);
     }
+}
+
+
+/*FEEDBACK FORM*/
+
+.vresize {
+  resize: vertical; 
 }
 
 
