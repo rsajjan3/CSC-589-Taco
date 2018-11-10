@@ -17,7 +17,7 @@
 <!--css file-->
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<title>The Friend Zone: Blog</title>
+<title>FriendZone: Blog</title>
   
 </head>
 
@@ -25,48 +25,40 @@
 
 <!--HEADER AND NAV BAR-->
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">Friend Zone</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style="padding-top: 0px" href="index.html">
+        <img src="imgs/logo.png" style="height: 50px">
+      </a>
+      <a class="navbar-brand" href="index.html">FriendZone</a>
     </div>
-    <ul class="nav navbar-nav">
-      <!--<li><a href="#">Home</a></li>-->
-    </ul>
-    
-    <!--Search bar-->
-    <form class="navbar-form navbar-left" action="/action_page.php">
-      <div class="input-group">
-        <input type="text" style="width:700px"; class="form-control" placeholder="Search" name="search">
-          <div class="input-group-btn">
-            <button class="btn btn-default" type="submit">
-              <i class="glyphicon glyphicon-search"></i>
-            </button>
-          </div>
-      </div>
-    </form>
-    
-    <!--Right side of nav bar-->
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="#">Buy</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Account <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
-      </li>
-    </ul>
-
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about-us.html">ABOUT US</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li class="active"><a href="blog.html">BLOG</a></li>
+        <li><a href="#">BUY</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ACCOUNT <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
 <!--HEADER AND NAV BAR ENDS HERE-->
 
 <!--BLOG-->
-<div class="container">
+<div class="container" style="padding-top: 50px">
     <div class="row">
         <div class="col-lg-8">
 
@@ -239,10 +231,9 @@
         <h4 class="headin5_amrc col_white_amrc pt2">About</h4>
         <!--headin5_amrc-->
         <ul class="footer_ul_amrc">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Vision</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="about-us.html#vision">Our Vision</a></li>
+          <li><a href="policy.html">Privacy</a></li>
         </ul>
         <!--footer_ul_amrc ends here-->
       </div>
@@ -266,7 +257,7 @@
       <li><a href="blog.html">Blog</a></li>
       <li><a href="#">Buy</a></li>
       <li><a href="#">Account</a></li>
-      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="about-us.html#contact">Feedback</a></li>
     </ul>
     <!--foote_bottom_ul_amrc ends here-->
     <p class="text-center">Copyright 2018</p>

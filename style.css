@@ -5,25 +5,52 @@ body {
   height: 100%;
   margin-top: 25px;
   position: relative;
-  background-color: #c2d2ca;
+/*  background-color: #c2d2ca;*/
+    background-color: #f2f5f2;
+}
+
+hr {
+  border-color: black;
+}
+
+.logo {
+  color: #19556b;
+  font-size: 200px;
 }
 
 
 /*NAV AND HEADER BAR*/
+
 .navbar {
-  background-color: #19556b !important;
+  margin-bottom: 0;
+  background-color: #19556b;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
 }
-.navbar .navbar-brand {
-  color: #f2f5f2 !important;
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
 }
-.navbar .navbar-brand:hover {
-  color: white;
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #19556b !important;
+  background-color: #f2f5f2 !important;
 }
-.navbar .navbar-nav li a {
+.navbar-default .navbar-toggle {
+  border-color: transparent;
   color: #f2f5f2 !important;
 }
 ul.dropdown-menu {
-    text-align: center;
+  text-align: center;
+  background-color: #19556b;
+}
+.jumbotron {
+  background-color: #19556b;
+  color: #fff;
+  padding: 100px 25px;
+  margin-bottom: 0px;
 }
 
 
@@ -193,4 +220,71 @@ footer p {
   width: 20px;
   height: 20px;
   text-align: center;
+}
+
+
+/*FOUNDERS*/
+
+.heading-title {
+  margin-bottom: 75px;
+}
+.text-center {
+  text-align: center;
+}
+.heading-title h1 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.p-top-30 {
+  padding-top: 30px;
+}
+.half-txt {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 25px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+  position: relative;
+}
+.team-member {
+  overflow: hidden;
+}
+.team-member:hover .team-hover .desk {
+  top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+
+.team-member:hover .team-hover .s-link {
+  bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+.team-title {
+  position: static;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.team-title h5 {
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+}
+.team-title span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bold;
+}
+.team-title p {
+  padding-top: 30px;
 }
