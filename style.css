@@ -288,13 +288,6 @@ footer p {
 .team-title p {
   padding-top: 30px;
 }
-/*
-.team-img {
-  height: 350px;
-  width: 300px;
-  border: 1px solid black;
-}
-*/
 
 
 /*SHOPLIST*/
@@ -357,4 +350,12 @@ footer p {
 }
 .btn-primary:hover {
   background-color: #016070 !important;
+}
+
+
+/*CHECKOUT*/
+
+.panel-heading {
+  background-color: #19556b !important;
+  color: white !important;
 }
