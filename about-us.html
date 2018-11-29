@@ -47,8 +47,8 @@
         <li><a href="checkout.html">BUY</a></li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ACCOUNT <span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#" id="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </li>
       </ul>
@@ -57,6 +57,46 @@
 </nav>
 
 <!--HEADER AND NAV BAR ENDS HERE-->
+
+<!--LOGIN MODAL-->
+
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+        <div class='col-md-3'></div>
+        <div class="col-md-6">
+            <div class="login-box well">
+                    <form action="">
+                        <legend>Sign In<span class="close">&times;</span></legend>
+                        <div class="form-group">
+                            <label for="username-email">E-mail or Username</label>
+                            <input value='' id="username-email" placeholder="E-mail or Username" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input id="password" value='' placeholder="Password" type="text" class="form-control" />
+                        </div>
+                        <div class="input-group">
+                          <div class="checkbox">
+                            <label>
+                              <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-default btn-login-submit btn-block m-t-md" value="Login" />
+                        </div>
+                        <div class="form-group">
+                            <p class="text-center m-t-xs text-sm">Do not have an account?</p> 
+                            <a href="register.html" class="btn btn-default btn-block m-t-md">Create an account</a>
+                        </div>
+                    </form>
+            </div>
+        </div>
+        <div class='col-md-3'></div>
+  </div>
+</div>
+
+<!--LOGIN MODAL ENDS HERE-->
 
 <!--FOUNDERS SECTION-->
 
@@ -141,6 +181,7 @@
       <p><span class="glyphicon glyphicon-envelope"></span> info@friendzone.com</p> 
     </div>
     <div class="col-sm-7">
+      <form action="https://formbotapp.com/XAU5K7JJ4ZXjfZ2Rh7BLRMLm/Feedback" method="POST">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -154,7 +195,8 @@
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
-      </div> 
+      </div>
+    </form>
     </div>
   </div>
 </div>
